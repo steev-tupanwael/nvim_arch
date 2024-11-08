@@ -1,14 +1,9 @@
 return {
   {
     "craftzdog/solarized-osaka.nvim",
-    name="solarized-osaka",
+    name="solosaka",
     lazy=true,
     priority=1000,
-    opts=function()
-      return {
-        transparent = false,
-      }
-    end,
   },
   {
     "catppuccin/nvim",
@@ -18,6 +13,7 @@ return {
   },
   {
     "Shatur/neovim-ayu",
+    name="ayu",
     lazy=true,
     priority=1000,
   },
@@ -27,4 +23,10 @@ return {
     lazy=true,
     priority=1000,
   },
+  {
+    "maxmx03/fluoromachine.nvim",
+    name="fluoromachine",
+    lazy=true,
+    priority=1000,
+  }
 }

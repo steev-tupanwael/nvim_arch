@@ -3,7 +3,7 @@ return {
   config = function()
     require("lualine").setup({
       options = {
-        theme = "ayu_dark",
+        theme = "molokai",
         component_separators = '',
         section_separators = { left = '', right = '' },
       },

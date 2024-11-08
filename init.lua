@@ -4,4 +4,4 @@ require("config.base")
 require("config.keymaps")
 require("config.lazy")
 
-vim.cmd.colorscheme "dracula"
+vim.cmd.colorscheme "fluoromachine"

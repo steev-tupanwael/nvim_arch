@@ -15,7 +15,7 @@ vim.keymap.set("n", "td", ":bdelete<enter>")
 -- screen
 vim.keymap.set("n", "ss", ":split<CR>")
 vim.keymap.set("n", "sv", ":vsplit<CR>")
-vim.keymap.set("n", "<space>", "<C-w>w")
+vim.keymap.set("n", "<space>j", "<C-w>w")
 
 vim.keymap.set("n", "<C-w><left>", "<C-w><")
 vim.keymap.set("n", "<C-w><right>", "<C-w>>")
@@ -28,10 +28,6 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 -- move cursor line
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
-
--- git
-vim.keymap.set("n", "<leader>gc", ":Git commit -m \"")
-vim.keymap.set("n", "<leader>gP", ":Git push -u origin HEAD<CR>")
 
 -- yank
 vim.keymap.set("n", "<leader>y", "\"+y")
@@ -50,4 +46,3 @@ end)
 
 -- diagnose
 vim.keymap.set('n', '<leader>dg', '<cmd>lua vim.diagnostic.open_float()<CR>')
-
